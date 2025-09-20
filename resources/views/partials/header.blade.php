@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <div id="logo" class="txc"><a href="{{ route('home') }}" class="dib"><img
-                                src="https://www.godrejindustries.com/public/images/logo-new-black.png" height="75"
+                                src="{{asset('img/logo.png')}}" height="75"
                                 alt="Godrej Industries Logo"></a></div>
                 </div>
                 <div class="col-md-10">
@@ -34,7 +34,7 @@
 
                                                 <li class="has_sub_menu">
                                                     <a href="{{ route('careers.index') }}">Careers</a>
-    
+
                                                 </li>
 
                                                 {{-- <li class="has_sub_menu">
@@ -261,44 +261,43 @@
 
 
 
-					<ul>
-                                                <li class="has_dropdown">
-                                                    <a href="{{ route('know-us.index') }}">Know Us</a><span></span>
-                                                    <ul>
-                                                        <li><a href="{{ route('know-us.story') }}">Our Story</a></li>
-                                                        <li><a href="{{ route('know-us.about') }}">About Godrej
-                                                                Industries Group</a></li>
-                                                        <li><a href="{{ route('know-us.foundation') }}">Godrej
-                                                                Foundation</a></li>
-                                                        <li><a href="{{ route('know-us.leadership') }}">Leadership</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                <ul>
+                    <li class="has_dropdown">
+                        <a href="{{ route('know-us.index') }}">Know Us</a><span></span>
+                        <ul>
+                            <li><a href="{{ route('know-us.story') }}">Our Story</a></li>
+                            <li><a href="{{ route('know-us.about') }}">About Godrej
+                                    Industries Group</a></li>
+                            <li><a href="{{ route('know-us.foundation') }}">Godrej
+                                    Foundation</a></li>
+                            <li><a href="{{ route('know-us.leadership') }}">Leadership</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                                                <li class="has_sub_menu">
-                                                    <a href="{{ route('businesses.index') }}">Businesses</a>
-                                                </li>
+                    <li class="has_sub_menu">
+                        <a href="{{ route('businesses.index') }}">Businesses</a>
+                    </li>
 
-                                                <li class="has_sub_menu">
-                                                    <a href="{{ route('careers.index') }}">Careers</a>
-    
-                                                </li>
+                    <li class="has_sub_menu">
+                        <a href="{{ route('careers.index') }}">Careers</a>
+
+                    </li>
 
 
-                                                <li class="has_dropdown">
-                                                    <a href="{{ route('sustainability.index') }}">Good & Green</a><span></span>
-                                                    <ul>
-                                                        <li><a href="{{ route('sustainability.10-years') }}">10 years of
-                                                                sustainability</a></li>
-                                                        <li><a href="{{ route('sustainability.csr') }}">CSR</a></li>
-                                                        <li><a href="{{ route('sustainability.green-supply-chain') }}">Green
-                                                                Supply Chain</a></li>
-                                                        <li><a
-                                                                href="{{ route('sustainability.volunteering') }}">Volunteering</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                {{-- <li class="has_sub_menu">
+                    <li class="has_dropdown">
+                        <a href="{{ route('sustainability.index') }}">Good & Green</a><span></span>
+                        <ul>
+                            <li><a href="{{ route('sustainability.10-years') }}">10 years of
+                                    sustainability</a></li>
+                            <li><a href="{{ route('sustainability.csr') }}">CSR</a></li>
+                            <li><a href="{{ route('sustainability.green-supply-chain') }}">Green
+                                    Supply Chain</a></li>
+                            <li><a href="{{ route('sustainability.volunteering') }}">Volunteering</a>
+                            </li>
+                        </ul>
+                    </li>
+                    {{-- <li class="has_sub_menu">
                                                     <a href="https://www.godrejindustries.com/investors"
                                                         data-title="Investors">Investors</a>
                                                     <ul>
@@ -322,26 +321,26 @@
                                                     </ul>
                                                 </li> --}}
 
-                                                <li class="has_dropdown">
-                                                    <a href="{{ route('investors.index') }}">Investors</a> <span></span>
-                                                    <ul>
-                                                        <li><a href="{{ route('investors.annual-reports') }}">Annual
-                                                                Reports</a></li>
-                                                        <li><a href="{{ route('investors.financial-updates') }}">Financial
-                                                                Updates</a></li>
-                                                        <li><a href="{{ route('investors.shareholder-information') }}">Shareholder
-                                                                Information</a></li>
-                                                        <li><a href="{{ route('investors.investors-information') }}">Investor
-                                                                Information</a></li>
-                                                        <li><a href="{{ route('investors.subsidiaries-accounts') }}">Subsidiaries
-                                                                Accounts</a></li>
-                                                        <li><a href="{{ route('investors.listing-compliance') }}">Listing
-                                                                Compliance</a></li>
-                                                        <li><a href="{{ route('investors.board-committees') }}">Board
-                                                                Committees</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                    <li class="has_dropdown">
+                        <a href="{{ route('investors.index') }}">Investors</a> <span></span>
+                        <ul>
+                            <li><a href="{{ route('investors.annual-reports') }}">Annual
+                                    Reports</a></li>
+                            <li><a href="{{ route('investors.financial-updates') }}">Financial
+                                    Updates</a></li>
+                            <li><a href="{{ route('investors.shareholder-information') }}">Shareholder
+                                    Information</a></li>
+                            <li><a href="{{ route('investors.investors-information') }}">Investor
+                                    Information</a></li>
+                            <li><a href="{{ route('investors.subsidiaries-accounts') }}">Subsidiaries
+                                    Accounts</a></li>
+                            <li><a href="{{ route('investors.listing-compliance') }}">Listing
+                                    Compliance</a></li>
+                            <li><a href="{{ route('investors.board-committees') }}">Board
+                                    Committees</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
