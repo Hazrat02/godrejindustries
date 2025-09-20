@@ -14,13 +14,12 @@
 				<div class="fw footermenu">
 					<h6>Quick Links</h6>
 					<ul>
-						<li><a href="https://www.godrejindustries.com" class='active'>Home</a></li>
-						<li><a href="https://www.godrejindustries.com/know-us" >Know Us</a></li>
-						<li><a href="https://www.godrejindustries.com/businesses" >Businesses</a></li>
-						<li><a href="https://www.godrejcareers.com/?company=godrej_industries" target="_blank" >Careers</a></li>
-						<li><a href="https://www.godrejindustries.com/sustainability" >Sustainability</a></li>
-						<li><a href="https://www.godrejindustries.com/investors" >Investors</a></li>
-						<!-- <li><a href="javascript:void(0);" >Media</a></li> -->
+						<li><a href="{{ route('home') }}" class='active'>Home</a></li>
+						<li><a href="{{ route('know-us.index') }}" >Know Us</a></li>
+						<li><a href="{{ route('businesses.index') }}" >Businesses</a></li>
+						<li><a href="{{ route('careers.index') }}"  >Careers</a></li>
+						<li><a href="{{ route('sustainability.index') }}" >Sustainability</a></li>
+						<li><a href="{{ route('investors.index') }}" >Investors</a></li>
 					</ul>
 				</div>
 			</div>
@@ -51,8 +50,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
-				<a href="https://www.godrejindustries.com/privacy" class="white" data-title="Privacy">Privacy</a>
-				<a href="https://www.godrejindustries.com/legal" class="white" data-title="Legal">Legal</a>
+				<a href="{{ route('privacy') }}" class="white" data-title="Privacy">Privacy</a>
+				<a href="{{ route('legal') }}" class="white" data-title="Legal">Legal</a>
 			</div>
 			<div class="col-md-6 col-xs-12 txr">
 				<p class="white">© Godrej Industries Group 2025. All rights reserved.</p>
